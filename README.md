@@ -1,6 +1,7 @@
 # Golang_JWT_Project
 Backend with authentication and validation that maintains and addresses a MongoDB Database
 
+```
 C:.
 │   .env
 │   go.mod
@@ -26,7 +27,7 @@ C:.
 └───routes
         authRouter.go
         userRouter.go
-
+```
         
 .env file of the format
 PORT=[..]
