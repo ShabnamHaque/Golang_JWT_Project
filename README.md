@@ -30,6 +30,8 @@ C:.
 ```
         
 .env file of the format
+```
 PORT=[..]
 MONGODB_URL=[...]
 SECRET_KEY="xyz"
+```
