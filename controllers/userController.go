@@ -124,11 +124,10 @@ func Login() gin.HandlerFunc {
 			return
 		}
 
-		err := userCollection.FindOne(ctx, bson.M{"email": user.Email}).Decode(&user)
+		err := userCollection.FindOne(ctx, bson.M{"email": user.Email}).Decode(&foundUser) // look for in database for the mentioned email.
 		if err != nil {
 			c.JSON(http.StatusInternalServerError, gin.H{"error": "entry not made"})
 		}
-		defer cancel()
 		if err := c.BindJSON(&user); err != nil {
 			c.JSON(http.StatusInternalServerError, gin.H{"error": "Email/password Incorrect"})
 			return
