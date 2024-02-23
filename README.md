@@ -1,7 +1,7 @@
 # Golang_JWT_Project
 <br>
 
-To clone repository locally.: <br>
+Clone the repository locally : <br>
 ```
 git clone https://github.com/ShabnamHaque/go-jwt.git
 ```
