@@ -1,4 +1,7 @@
 # Golang_JWT_Project
+<br>
+To clone repository locally.: <br>
+``` git clone https://github.com/ShabnamHaque/go-jwt.git ```
 Backend with authentication and validation that maintains and addresses a MongoDB Database
 <br><br>
 
