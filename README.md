@@ -6,7 +6,7 @@ Clone the repository locally : <br>
 git clone https://github.com/ShabnamHaque/go-jwt.git
 ```
 <br>
-Backend with authentication and validation that maintains and addresses a MongoDB Database
+**Backend with authentication and validation that maintains and addresses a MongoDB Database**
 <br><br>
 
 1. Password Encryption - implements hashing of user passwords.<br>
