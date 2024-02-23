@@ -2,7 +2,7 @@
 Backend with authentication and validation that maintains and addresses a MongoDB Database
 <br><br>
 
-1. We will implement hashing of user passwords.<br>
+1. Password Encryption - implements hashing of user passwords.<br>
 
 2. Maintain access points (User or Admin) - special access privilege using tokens. <br>
 
@@ -12,7 +12,7 @@ Backend with authentication and validation that maintains and addresses a MongoD
 
 5. Only the user themselves or the admin can access Logging in to access the user data. <br>
 
-6. Password Encryption. <br>
+
 ```
 C:.
 │   .env
