@@ -22,7 +22,13 @@ Only the user themselves or the admin can access Logging in to access the user d
 ## Installation
 
 ### Prerequisites
-List any software, libraries, or tools that need to be installed before using your project.
+The libraries required are
+```go
+github.com/go-playground/validator/v10
+github.com/joho/godotenv
+github.com/xdg-go/pbkdf2
+go.mongodb.org/mongo-driver
+```
 
 ```bash
 # Example for Go installation
@@ -30,7 +36,6 @@ $ go version
 ```
 
 ### Installing the Project
-Provide step-by-step instructions on how to install and set up the project.
 
 ```bash
 # Clone the repository
