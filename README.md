@@ -3,7 +3,7 @@
 
 A Backend Application with authentication and validation that maintains and addresses a MongoDB Database.
 ## Table of Contents
-1. [Introduction](#introduction)
+1. [Introduction- Features](#introduction)
 2. [Installation](#installation)
 3. [License](#license)
 4. [Contact](#contact)
