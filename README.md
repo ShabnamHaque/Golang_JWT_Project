@@ -44,7 +44,7 @@ $ go mod tidy
 
 # Run the project
 $ go run main.go
-<!--
+```go
 /*
 ### File Structure
 C:.
@@ -72,11 +72,9 @@ C:.
 └───routes
         authRouter.go
         userRouter.go
--->
-### Configuration
-    
-```go
+  
 
+### Configuration
 PORT=[..]
 MONGODB_URL=[...]
 SECRET_KEY="xyz"
