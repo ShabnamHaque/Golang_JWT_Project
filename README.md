@@ -44,7 +44,7 @@ $ go mod tidy
 
 # Run the project
 $ go run main.go
-```go
+
 
 ### File Structure
 C:.
