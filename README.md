@@ -45,7 +45,7 @@ $ go mod tidy
 # Run the project
 $ go run main.go
 ```go
-/*
+
 ### File Structure
 C:.
 │   .env
@@ -74,7 +74,7 @@ C:.
         userRouter.go
   
 
-### Configuration
+### Configuration of .env file
 PORT=[..]
 MONGODB_URL=[...]
 SECRET_KEY="xyz"
