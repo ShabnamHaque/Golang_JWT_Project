@@ -5,11 +5,8 @@ A Backend Application with authentication and validation that maintains and addr
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Installation](#installation)
-3. [Usage](#usage)
-6. [API Reference](#api-reference)
-7. [Contributing](#contributing)
-8. [License](#license)
-9. [Contact](#contact)
+3. [License](#license)
+4. [Contact](#contact)
 
 ## Introduction - Features
 Password Encryption - implements hashing of user passwords.
@@ -47,8 +44,8 @@ $ go mod tidy
 
 # Run the project
 $ go run main.go
-```
-
+<!--
+/*
 ### File Structure
 C:.
 │   .env
@@ -75,7 +72,7 @@ C:.
 └───routes
         authRouter.go
         userRouter.go
-
+-->
 ### Configuration
     
 ```go
